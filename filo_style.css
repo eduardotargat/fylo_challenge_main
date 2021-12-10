@@ -1,0 +1,218 @@
+/*Font OpenSans*/
+  @font-face {
+    font-family: 'OpenSans';
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+    font-weight: bold;
+  }
+  /*Font Raleway*/
+    @font-face{
+    font-family:'Raleway';
+    src: url(C:\Users\Eduardo\Desktop\Challenges_\Raleway\static);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+  @font-face{
+    font-family:'Raleway' ;
+    src: url(C:\Users\Eduardo\Desktop\Challenges_\Raleway\static);
+    font-weight: bold;  
+
+
+  }
+  @font-face{
+    font-family:'Raleway' ;
+    src: url(C:\Users\Eduardo\Desktop\Challenges_\Raleway\static);
+    font-weight: 700-900;  
+
+
+  }
+  /*General settings*/
+
+  body{
+    
+      width: 1440px;
+      font-family: 'Raleway', sans-serif;
+      margin: auto;
+      padding: auto;
+  }
+  header{
+      box-sizing: border-box;
+      width: 1440px;
+      
+      margin: 0;
+      padding: 50px  50px;
+      font-family: 'Open Sans', sans-serif;
+      word-spacing: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  footer{
+    width: 1440px;
+    box-sizing: border-box;
+    background-color: hsl(243, 87%, 12%);
+    margin: 0;
+    padding: 100px  50px;
+  }
+  footer p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #f9f8fe;
+  }
+  footer a{
+    
+    font-size: 15px;
+    font-weight: 400;
+    color: #f9f8fe;
+  }
+  
+
+  h2{
+      font-family: 'Raleway';
+      margin: 0;
+      padding: 28px 0 0; 
+      font-weight: 900;
+      font-size: 30px; 
+      color: hsl(243, 87%, 12%);      
+  }
+  p{
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(243, 87%, 12%) ;
+    
+  }
+  a{
+      text-decoration: none;
+      
+  }
+
+  /* classes */
+
+  .container{
+    width: 1440px;
+    margin: 0;
+    padding:  0;
+
+  }
+  .all-secure{
+      padding: 50px;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+  }
+  .all-sec-lft{
+  }
+
+    .stay-pro{
+      
+      
+        padding: 50px;
+        margin: 0;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center; 
+        background-color:  #f9f8fe;
+  }
+  .stay-pro a{
+    color:hsl(170, 45%, 43%);
+    font-size: 15px;
+    text-decoration: underline;
+  }
+
+  .border-line{
+    background-color:  #f9f8fe;
+  }
+  .img-wave{
+    height: 100px;
+    width: 1442px;
+    border:none;
+    }
+  #box-msg{
+    margin-top: 40px;
+
+  }
+
+  .get-early{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    padding: 50px;
+    height:322px;
+    background-color:  hsl(238, 22%, 44%);
+  }
+  .get-early h2,.get-early p {
+    color: white;
+  }
+
+  .footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+  .content_4{
+    width: 400px;
+  }
+  .form2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 70px;
+  }
+  /*Form settings*/
+  .plc-hld , .plc-hld2{
+      box-sizing: border-box;
+      font-size: 15px;
+      height: 46px;
+      width: 316px;
+      border-radius: 3px;
+      border: 1px solid black;
+  }
+  .plc-hld2{
+    margin-left: 0px;
+    padding-left: 0px;
+    border: none;
+    height:50px;
+    width: 479px;
+    
+  }
+  .form1{
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      
+  }
+  .btn , .btn2{
+      margin-left: 15px;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 15px;
+      height: 46px;
+      width:204px ; 
+      color: white;
+      background-color: hsl(224, 93%, 58%);  
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  .btn2{
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    
+  }
+
+
+  }
