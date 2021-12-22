@@ -1,7 +1,8 @@
 #  Filo Challenge 
 
 ## This is the filo challenge about  [Front-EndMentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5/hub/fylo-landing-page-with-two-column-layout-tFvqdjxq9/edit)
-So take a look at this challenge <a href ="https://eduardotargat.github.io/fylo_desafio/index_challenge.html"> Site Desafio Fylo - FrontEnd Mentor</a>
+So take a look at this challenge <a href ="https://eduardotargat.github.io/
+fylo_challenge_main/index_challenge.html"> Site Desafio Fylo - FrontEnd Mentor</a>
 In this project I could put my skills in the game. I´m a begginner on this path and have some ideas to work it´s awesome.  
 
 So let´s started ...
@@ -15,7 +16,8 @@ So let´s started ...
 
 ## website
 
-<a href ="https://eduardotargat.github.io/fylo_desafio/index_challenge.html"> Desafio Fylo - FrontEnd Mentor</a>
+<a href ="https://eduardotargat.github.io/
+fylo_challenge_main/index_challenge.html"> Desafio Fylo - FrontEnd Mentor</a>
 
 ## Author
 
