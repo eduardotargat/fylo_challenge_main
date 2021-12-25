@@ -8,6 +8,11 @@
     src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
     font-weight: bold;
   }
+  @font-face {
+    font-family: 'OpenSans', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap);
+    font-weight: 600;
+  }
   /*Font Raleway*/
     @font-face{
     font-family:'Raleway';
@@ -212,7 +217,9 @@
     
   }
   @media (max-width: 500px){
+   
     /*Responsive header*/
+
     header{
       padding: 20px 15px;
       word-spacing: 20px;
@@ -225,9 +232,18 @@
     }
     /*Responsive elements*/
     p{
+      font-family:'Open Sans';
+      font-weight: lighter;/* observar porque n esta fino*/
+      text-align: center;
       width: 375px;
     }
     h2{
+      font-family:'Open Sans';
+      font-weight: bold;
+      font-size: 25px;
+      word-spacing: 5px;
+      text-align: center;
+           
       width: 375px;
     }
     /*Responsive step 1*/
